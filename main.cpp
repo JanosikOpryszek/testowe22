@@ -13,7 +13,7 @@ printinfo();
 cin>>zm1;
 cin>>zm2;
 int pol=pole(zm1,zm2);
-cout<<"wynik mnozenia: "<<pol<<endl;
+cout<<"wynik szalonego mnozenia: "<<pol<<endl;
 
 
 return 0;
