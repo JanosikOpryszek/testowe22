@@ -1,10 +1,10 @@
-all: program
+all: program 
 program: main.o pole.o printinfo.o
-	gcc main.o pole.o printinfo.o -o program
-main.o: main.c
-	gcc -c main.c
-pole.o: pole.c
-	gcc -c pole.c
-printinfo.o: printinfo.c
-	gcc -c printinfo.c
+	g++ main.o pole.o printinfo.o -o program 
+main.o: main.cpp
+	g++ -c main.cpp 
+pole.o: pole.cpp
+	g++ -c pole.cpp 
+printinfo.o: printinfo.cpp
+	g++ -c printinfo.cpp 
 
